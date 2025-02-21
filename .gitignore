@@ -1,0 +1,4 @@
+venv/
+config.yaml
+extract_exercise.pdf
+001_extract.ipynb
