@@ -1,49 +1,26 @@
-# Project Title
+# Ejercicios ETL
 
-This is a Python project that utilizes various libraries for data manipulation, analysis, and database interaction.
+En este proyecto se presenta el desarrollo de diferentes ejercicios de ETL
 
-## Requirements
+## Ejercicio 1: 001_workshop.ipynb
 
-- Python 3.x
-- pandas
-- Jupyter
-- SQLAlchemy
-- PyYAML
-- psycopg2
+Utiliza un archivo CSV con datos aleatorios sin relación con casos reales, sobre los cuales se realizan los siguientes pasos:
+ 1. Read the csv file using python
+ 2. load the data into the database (staging area)
+ 3. read the table you just created with python
+ 4. do the transformations named bellow
+ 5. load the transformed data into a new table
 
-## Installation
+## Consideraciones
 
-To install the required packages, you can use `pip`:
-
-```bash
-pip install pandas jupyter sqlalchemy pyyaml psycopg2
-```
+Utiliza base de datos posgreSQL
+Desarrollado en python
+Adecuación de entorno virtual
 
 ## Usage
 
-1. Clone the repository:
-
-```bash
-git clone https://github.com/yourusername/yourproject.git
-cd yourproject
-```
-
-2. Install the dependencies:
-
-```bash
-pip install -r requirements.txt
-```
-
-3. Open your desired notebook and start working with the project.
-
-## Contributing
-
-Contributions are welcome! Please open an issue or submit a pull request.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+1. Clone the repository.
 
 ## Contact
 
-For any questions or suggestions, please contact [your email].
+For any questions or suggestions, please contact joaquin.alarcon@uao.edu.co
